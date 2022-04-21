@@ -16,7 +16,7 @@ from pyrogram.errors.exceptions import ChannelPrivate
 from modules.posts import TextPost, PicturePost, StickerPost, RandomPost
 
 # Channel Spam - switch between profile (False) and channel (True)
-spam_from_channel = False
+spam_from_channel = True
 # Chat (Sender) - stores chat from which bot will spam (profile or channels)
 send_chat = None
 # Using to avoid media group bug
